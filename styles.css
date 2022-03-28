@@ -1,3 +1,54 @@
-h1 {
-    color: pink;
+body{
+    margin: 0px
+}
+header{
+    width: 100%;
+    border-bottom: 1px #DBDBDB solid;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#logo{
+    width: 65px;
+    padding: 19px 19px 18px 19px;
+    margin-left: 90px;
+}
+#buscar{
+    border: 0;
+    background-color: #EFEFEF;
+    border-radius: 10px;
+    height: 33px;
+    width: 250px;
+    font-size: 16px;
+    margin-right: 80px;
+    margin-left: 250px;
+}
+#menu{
+    display: flex;
+    margin-right: 90px;
+}
+#casa{
+    height: 28px;
+    margin-right: 19px;
+}
+#chat{
+    height: 35px;
+    margin-right: 20px;
+}
+#publicacion{
+    height: 28px;
+    margin-right: 20px;
+}
+#brujula{
+    height: 28px;
+    margin-right: 20px;
+}
+#mg{
+    height: 28px;
+    margin-right: 20px;
+}
+#perfil{
+    height: 28px;
+    margin-right: 20px;
 }
