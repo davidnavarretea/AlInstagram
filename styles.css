@@ -71,19 +71,41 @@ header{
 }
 #foto{
     height: 800px;
-    border: pink 1px solid;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+    border-style: solid;
+    border-color: #DBDBDB;
 }
 #megustas{
     height: 53px;
-    border: green 1px solid;
+    display: flex;
+    align-items: center;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+    border-style: solid;
+    border-color: #DBDBDB;
 }
 #comentarios{
     height: 109px;
-    border: purple 1px solid;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-width: 0px;
+    border-bottom-width: 1px;
+    border-style: solid;
+    border-color: #DBDBDB;
 }
 #escribir{
     height: 55px;
-    border: yellow 1px solid;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-width: 0px;
+    border-bottom-width: 1px;
+    border-style: solid;
+    border-color: #DBDBDB;
 }
 #perfil2{
     margin-left: 12px;
@@ -95,19 +117,42 @@ header{
 }
 #nombrea{
     text-decoration: none;
+    color: #262626;
 }
-#puntos{
-    justify-content: right;
-}
-#puntosa{
-    text-decoration: none;
+#nombrea:visited{
+    color: #262626;
 }
 #puntos{
     font-size: 22px;
     margin-left: 460px;
     margin-bottom: 35px;
+    justify-content: right;
+}
+#puntosa{
+    text-decoration: none;
+    color: #262626
+}
+#puntosa:visited{
+    color: #262626
 }
 #foto1{
     width: 598px;
     height: 800px;
+}
+#mgrelleno{
+    width: 28px;
+    margin-left: 12px;
+}
+#comentariomensaje{
+    width: 27px;
+    margin-left: 12px;
+    margin-bottom: 2px;
+}
+#enviarpublicacion{
+    width: 27px;
+    margin-left: 13px;
+}
+#guardarpublicacion{
+    width: 25px;
+    margin-left: 440px;
 }
