@@ -90,7 +90,7 @@ header{
     border-color: #DBDBDB;
 }
 #comentarios{
-    height: 109px;
+    height: 84px;
     border-left-width: 1px;
     border-right-width: 1px;
     border-top-width: 0px;
@@ -155,4 +155,46 @@ header{
 #guardarpublicacion{
     width: 25px;
     margin-left: 440px;
+}
+#lesgusta{
+    margin-left: 15px;
+}
+#ad10s{
+    text-decoration: none;
+    color: #262626;
+}
+#ad10s:visited{
+    color: #262626;
+}
+#acristiano{
+    text-decoration: none;
+    color: #262626;
+}
+#acristinano:visited{
+    color: #262626;
+}
+#vercomentarios{
+    margin-left: 15px;
+    margin-top: 8px;
+    color: #8E8E8E;
+}
+#avercomentarios{
+    text-decoration: none;
+    color: #8E8E8E;
+}
+#avercomentarios:visited{
+    color: #8E8E8E;
+}
+#fecha{
+    color: #8E8E8E;
+    font-size: 10px;
+    margin-left: 15px;
+    margin-top: 8px;
+}
+#afecha{
+    text-decoration: none;
+    color: #8E8E8E;
+}
+#afecha:visited{
+    color: #8E8E8E;
 }
