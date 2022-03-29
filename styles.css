@@ -1,5 +1,5 @@
 body{
-    margin: 0px
+    margin: 0px;
 }
 header{
     width: 100%;
@@ -25,6 +25,7 @@ header{
     margin-left: 250px;
 }
 #menu{
+    margin-top: 8px;
     display: flex;
     margin-right: 90px;
 }
@@ -51,4 +52,62 @@ header{
 #perfil{
     height: 28px;
     margin-right: 20px;
+}
+#wrapper{
+    display: flex;
+    justify-content: center;
+}
+#wc{
+    width: 600px;
+    height: 800px;
+    margin-top: 25px;
+    display: inline-block;
+}
+#cabecerafoto{
+    display: flex;
+    align-items: center;
+    height: 64px;
+    border: #DBDBDB 1px solid;
+}
+#foto{
+    height: 800px;
+    border: pink 1px solid;
+}
+#megustas{
+    height: 53px;
+    border: green 1px solid;
+}
+#comentarios{
+    height: 109px;
+    border: purple 1px solid;
+}
+#escribir{
+    height: 55px;
+    border: yellow 1px solid;
+}
+#perfil2{
+    margin-left: 12px;
+    width: 38px;
+}
+#nombre{
+    font-size: 15px;
+    margin-left: 10px;
+}
+#nombrea{
+    text-decoration: none;
+}
+#puntos{
+    justify-content: right;
+}
+#puntosa{
+    text-decoration: none;
+}
+#puntos{
+    font-size: 22px;
+    margin-left: 460px;
+    margin-bottom: 35px;
+}
+#foto1{
+    width: 598px;
+    height: 800px;
 }
