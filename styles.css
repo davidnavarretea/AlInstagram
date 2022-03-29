@@ -54,8 +54,8 @@ header{
     margin-right: 20px;
 }
 #wrapper{
-    display: flex;
-    justify-content: center;
+    display: block;
+    text-align: center;
 }
 #wc{
     width: 600px;
@@ -90,6 +90,7 @@ header{
     border-color: #DBDBDB;
 }
 #comentarios{
+    text-align: left;
     height: 84px;
     border-left-width: 1px;
     border-right-width: 1px;
@@ -100,6 +101,8 @@ header{
 }
 #escribir{
     height: 55px;
+    display: flex;
+    align-items: center;
     border-left-width: 1px;
     border-right-width: 1px;
     border-top-width: 0px;
@@ -197,4 +200,19 @@ header{
 }
 #afecha:visited{
     color: #8E8E8E;
+}
+#emoji{
+    width: 26px;
+    margin-left: 18px;
+}
+#añadecomentario{
+    border: 0;
+    font-size: 14px;
+    margin-left: 10px;
+}
+#publicarboton{
+    color: #0095F6;
+    text-decoration: none;
+    margin-left: 290px;
+    font-size: 15px;
 }
